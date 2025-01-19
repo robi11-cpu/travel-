@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>পর্যটন বিচিত্রা - ভ্রমণ বিষয়ক পত্রিকা</title>
+    
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +880 1XXXXXXXXX</span>
+                    <span><i class="fas fa-envelope"></i> info@parjatan.com</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="পর্যটন বিচিত্রা">
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <div class="mobile-menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">হোম</a></li>
+                        <li class="has-dropdown">
+                            <a href="#">দেশ ভ্রমণ <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="#">দর্শনীয় স্থান</a></li>
+                                <li><a href="#">অ্যাডভেঞ্চার</a></li>
+                                <li><a href="#">উৎসব ও মেলা</a></li>
+                                <li><a href="#">ইতিহাস ও ঐতিহ্য</a></li>
+                                <li><a href="#">ভ্রমণ কথন</a></li>
+                                <li><a href="#">পর্যটন ফিচার</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="#">বিদেশ ভ্রমণ <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="#">এশিয়া</a></li>
+                                <li><a href="#">ইউরোপ</a></li>
+                                <li><a href="#">অন্যান্য দেশ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">পর্যটন সেবা</a></li>
+                        <li><a href="#">ভিডিও</a></li>
+                        <li><a href="#">ছবি ঘর</a></li>
+                        <li><a href="#">ই-ম্যাগাজিন</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section with Slider -->
+    <section class="hero-section">
+        <div class="hero-slider">
+            <div class="slide">
+                <img src="images/slider1.jpg" alt="ভ্রমণ স্লাইড">
+                <div class="slide-content">
+                    <h2>বাংলাদেশের সেরা পর্যটন স্পট</h2>
+                    <p>আপনার পরবর্তী অ্যাডভেঞ্চার খুঁজুন</p>
+                    <a href="#" class="btn">আরও জানুন</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <!-- Featured Posts Section -->
+                <section class="featured-posts">
+                    <h2 class="section-title">জনপ্রিয় গন্তব্য</h2>
+                    <div class="post-grid">
+                        <!-- Featured Post 1 -->
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="images/post1.jpg" alt="পোস্ট ইমেজ">
+                                <div class="category-tag">দেশ ভ্রমণ</div>
+                            </div>
+                            <div class="post-content">
+                                <h3><a href="#">সেন্ট মার্টিন: নীল সাগরের দ্বীপে ভ্রমণ গাইড</a></h3>
+                                <div class="post-meta">
+                                    <span><i class="far fa-calendar"></i> ১০ জানুয়ারি ২০২৫</span>
+                                    <span><i class="far fa-eye"></i> ১২৩৪ বার পঠিত</span>
+                                </div>
+                                <p>সেন্ট মার্টিনের সর্বশেষ ভ্রমণ গাইড, থাকা-খাওয়া এবং ঘোরাঘুরির সম্পূর্ণ তথ্য...</p>
+                            </div>
+                        </div>
+
+                        <!-- Featured Post 2 -->
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="images/post2.jpg" alt="পোস্ট ইমেজ">
+                                <div class="category-tag">পর্যটন সেবা</div>
+                            </div>
+                            <div class="post-content">
+                                <h3><a href="#">সাজেক ভ্যালি: মেঘের রাজ্যে ভ্রমণের সেরা সময়</a></h3>
+                                <div class="post-meta">
+                                    <span><i class="far fa-calendar"></i> ৮ জানুয়ারি ২০২৫</span>
+                                    <span><i class="far fa-eye"></i> ৯৮৭ বার পঠিত</span>
+                                </div>
+                                <p>সাজেক ভ্যালি ভ্রমণের সেরা সময় এবং প্রয়োজনীয় তথ্য জেনে নিন...</p>
+                            </div>
+                        </div>
+
+                        <!-- Featured Post 3 -->
+                        <div class="post-card">
+                            <div class="post-thumb">
+                                <img src="images/post3.jpg" alt="পোস্ট ইমেজ">
+                                <div class="category-tag">অ্যাডভেঞ্চার</div>
+                            </div>
+                            <div class="post-content">
+                                <h3><a href="#">বান্দরবান: পাহাড়ি অ্যাডভেঞ্চারের গন্তব্য</a></h3>
+                                <div class="post-meta">
+                                    <span><i class="far fa-calendar"></i> ৫ জানুয়ারি ২০২৫</span>
+                                    <span><i class="far fa-eye"></i> ৭৬৫ বার পঠিত</span>
+                                </div>
+                                <p>বান্দরবানের বিভিন্ন ট্রেকিং রুট এবং অ্যাডভেঞ্চার স্পট সম্পর্কে বিস্তারিত...</p>
+                            </div>
+                        </div>
+                        <div class="post-image">
+                            <img src="images/sundarbans.jpg" alt="সুন্দরবন">
+                        </div>
+                        <div class="post-content">
+                            <span class="category">দেশীয় পর্যটন</span>
+                            <h3>সুন্দরবনে ৩ দিন: একটি অবিস্মরণীয় অভিজ্ঞতা</h3>
+                            <p>বাংলাদেশের দক্ষিণাঞ্চলের মায়াবী সুন্দরবন। রয়্যাল বেঙ্গল টাইগার, হরিণ, কুমির এবং বিভিন্ন প্রজাতির পাখি দেখার অভিজ্ঞতা। সাথে থাকছে নৌকা ভ্রমণের রোমাঞ্চ...</p>
+                            <a href="#" class="read-more">বিস্তারিত পড়ুন</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Post 2 -->
+                    <article class="post-card" data-category="international">
+                        <div class="post-image">
+                            <img src="images/maldives.jpg" alt="মালদ্বীপ">
+                        </div>
+                        <div class="post-content">
+                            <span class="category">আন্তর্জাতিক পর্যটন</span>
+                            <h3>মালদ্বীপ ভ্রমণ: বাজেট থেকে লাগজারি</h3>
+                            <p>স্বচ্ছ নীল সমুদ্র, সাদা বালুর বীচ আর ওভার ওয়াটার ভিলা। মালদ্বীপের প্যারাডাইস আইল্যান্ডে কীভাবে কম খরচে ঘুরে আসবেন তার সম্পূর্ণ গাইডলাইন...</p>
+                            <a href="#" class="read-more">বিস্তারিত পড়ুন</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Post 3 -->
+                    <article class="post-card" data-category="adventure">
+                        <div class="post-image">
+                            <img src="images/bandarban.jpg" alt="বান্দরবান">
+                        </div>
+                        <div class="post-content">
+                            <span class="category">অ্যাডভেঞ্চার</span>
+                            <h3>বান্দরবানের কেওক্রাডং: মেঘের উপরে হাঁটা</h3>
+                            <p>বাংলাদেশের সর্বোচ্চ পর্বত শৃঙ্গ কেওক্রাডং-এ ট্রেকিং অভিজ্ঞতা। সাথে থাকছে ক্যাম্পিং, আদিবাসী গ্রাম ভ্রমণ এবং অনন্য প্রাকৃতিক সৌন্দর্য উপভোগের সুযোগ...</p>
+                            <a href="#" class="read-more">বিস্তারিত পড়ুন</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Post 4 -->
+                    <article class="post-card" data-category="food">
+                        <div class="post-image">
+                            <img src="images/street-food.jpg" alt="স্ট্রিট ফুড">
+                        </div>
+                        <div class="post-content">
+                            <span class="category">খাবার-দাবার</span>
+                            <h3>পুরান ঢাকার স্ট্রিট ফুড: স্বাদের এক অনন্য জগৎ</h3>
+                            <p>পুরান ঢাকার বিখ্যাত নানা ধরনের খাবার। বিরিয়ানি থেকে শুরু করে বাদাম ভাজা, ফালুদা, জিলাপি সহ নানা ঐতিহ্যবাহী খাবারের এক অসাধারণ গাইড...</p>
+                            <a href="#" class="read-more">বিস্তারিত পড়ুন</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Post 5 -->
+                    <article class="post-card" data-category="heritage">
+                        <div class="post-image">
+                            <img src="images/paharpur.jpg" alt="পাহাড়পুর">
+                        </div>
+                        <div class="post-content">
+                            <span class="category">ঐতিহ্য</span>
+                            <h3>পাহাড়পুর বৌদ্ধ বিহার: হারিয়ে যাওয়া ইতিহাসের সন্ধানে</h3>
+                            <p>বাংলাদেশের সবচেয়ে বড় বৌদ্ধ বিহার পাহাড়পুর। ইউনেস্কো ওয়ার্ল্ড হেরিটেজ সাইটে পরিণত হওয়া এই প্রাচীন স্থাপনার ইতিহাস ও বর্তমান অবস্থা...</p>
+                            <a href="#" class="read-more">বিস্তারিত পড়ুন</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Post 6 -->
+                    <article class="post-card" data-category="tips">
+                        <div class="post-image">
+                            <img src="images/travel-tips.jpg" alt="ভ্রমণ টিপস">
+                        </div>
+                        <div class="post-content">
+                            <span class="category">ভ্রমণ টিপস</span>
+                            <h3>বর্ষায় ভ্রমণের ১০টি গুরুত্বপূর্ণ টিপস</h3>
+                            <p>বর্ষা মৌসুমে ভ্রমণ করতে চান? জেনে নিন কী কী জিনিস সাথে নিবেন, কীভাবে নিরাপদে ভ্রমণ করবেন এবং কোন কোন জায়গায় যাওয়া যাবে...</p>
+                            <a href="#" class="read-more">বিস্তারিত পড়ুন</a>
+                        </div>
+                    </div>
+                    
+                </section>
+                <!-- Short Preview -->
+<article class="post-card" data-category="travel">
+    <div class="post-image">
+        <img src="images/saint-martin.jpg" alt="সেন্ট মার্টিন">
+        <div class="post-tags">
+            <span>ভ্রমণ</span>
+            <span>দ্বীপ</span>
+        </div>
+    </div>
+    <div class="post-content preview">
+        <span class="category">দেশীয় পর্যটন</span>
+        <h3>সেন্ট মার্টিন: নীল সাগরের মাঝে কোরালের দ্বীপ</h3>
+        <p class="excerpt">
+            বাংলাদেশের একমাত্র প্রবাল দ্বীপ সেন্ট মার্টিন। নীল সাগর আর সাদা বালির বীচ মিলে তৈরি হয়েছে অপূর্ব এক প্রাকৃতিক পরিবেশ। জেনে নিন এই দ্বীপে ভ্রমণের সম্পূর্ণ গাইডলাইন...
+        </p>
+        <button onclick="showFullPost('saint-martin-post')" class="read-more">বিস্তারিত পড়ুন</button>
+    </div>
+</article>
+
+<!-- Full Post (Initially Hidden) -->
+<article id="saint-martin-post" class="full-post" style="display: none;">
+    <div class="post-header">
+        <h1>সেন্ট মার্টিন: নীল সাগরের মাঝে কোরালের দ্বীপ</h1>
+        <div class="post-meta">
+            <span><i class="far fa-user"></i> লিখেছেন: আরিফ হাসান</span>
+            <span><i class="far fa-calendar"></i> ১৮ জানুয়ারি, ২০২৫</span>
+            <span><i class="far fa-eye"></i> পাঠক সংখ্যা: ১,২৩৪</span>
+        </div>
+    </div>
+
+    <div class="post-content full">
+        <div class="introduction">
+            <p>
+                বাংলাদেশের দক্ষিণ-পূর্ব প্রান্তে বঙ্গোপসাগরের বুকে অবস্থিত সেন্ট মার্টিন দ্বীপ। এই দ্বীপটি বাংলাদেশের একমাত্র প্রবাল দ্বীপ হিসেবে পরিচিত। প্রায় ৮ বর্গকিলোমিটার আয়তনের এই দ্বীপটি পর্যটকদের কাছে স্বর্গরাজ্য হিসেবে পরিচিত।
+            </p>
+        </div>
+
+        <h2>যাওয়ার উপায়</h2>
+        <p>
+            কক্সবাজার বা টেকনাফ থেকে শিপ বা ট্রলারে সেন্ট মার্টিন যাওয়া যায়। সকাল ৯টা থেকে দুপুর ২টা পর্যন্ত বিভিন্ন সময়ে শিপ ছাড়ে। ভ্রমণের সময় প্রায় ২ ঘণ্টা। বর্তমানে কয়েকটি শিপিং লাইন নিয়মিত সার্ভিস দিচ্ছে:
+            <ul>
+                <li>কেএমপি ক্রুজ</li>
+                <li>গ্রীন লাইন</li>
+                <li>আঙ্গুর দ্বীপ ক্রুজ</li>
+                <li>কেবিন ক্রুজ</li>
+            </ul>
+        </p>
+
+        <h2>থাকার ব্যবস্থা</h2>
+        <p>
+            দ্বীপে বিভিন্ন মানের হোটেল ও রিসোর্ট রয়েছে। দৈনিক ভাড়া ১,০০০ টাকা থেকে ১০,০০০ টাকা পর্যন্ত। কিছু জনপ্রিয় হোটেল:
+            <ul>
+                <li>সেন্ট মার্টিন রিসোর্ট</li>
+                <li>ব্লু মারিন</li>
+                <li>প্রাসাদ প্যারাডাইস</li>
+                <li>সী পার্ক রিসোর্ট</li>
+            </ul>
+        </p>
+
+        <h2>দর্শনীয় স্থান</h2>
+        <p>
+            <ol>
+                <li>
+                    <strong>ছোট দ্বীপ (ছেরাদ্বীপ)</strong><br>
+                    মূল দ্বীপ থেকে ১.৫ কিলোমিটার দূরে অবস্থিত। এখানে যেতে হলে স্থানীয় বোট ভাড়া করতে হয়।
+                </li>
+                <li>
+                    <strong>কোরাল বীচ</strong><br>
+                    প্রবাল প্রাচীর দেখার সেরা জায়গা। সকাল বেলায় স্নরকেলিং করার সুযোগ রয়েছে।
+                </li>
+                <li>
+                    <strong>পশ্চিম বীচ</strong><br>
+                    সূর্যাস্ত দেখার সেরা স্পট। বিকেলে এখানে ভ্রমণকারীদের ভিড় জমে।
+                </li>
+            </ol>
+        </p>
+
+        <h2>খাবার</h2>
+        <p>
+            সেন্ট মার্টিনে তাজা সামুদ্রিক খাবারের স্বাদ নেওয়া যায়। বিশেষ করে:
+            <ul>
+                <li>তাজা লবস্টার</li>
+                <li>ক্র্যাব মাসালা</li>
+                <li>চিংড়ি ভুনা</li>
+                <li>পমফ্রেট ফ্রাই</li>
+            </ul>
+        </p>
+
+        <h2>ভ্রমণের সেরা সময়</h2>
+        <p>
+            নভেম্বর থেকে ফেব্রুয়ারি মাস ভ্রমণের সেরা সময়। এ সময় আবহাওয়া থাকে শুষ্ক ও আরামদায়ক। মে থেকে অক্টোবর মাসে ঝড় ও বৃষ্টির কারণে পর্যটক আগমন কম থাকে।
+        </p>
+
+        <div class="travel-tips">
+            <h2>ভ্রমণ টিপস</h2>
+            <ul>
+                <li>অগ্রিম হোটেল বুকিং করে যান</li>
+                <li>সানস্ক্রিন ও ছাতা সাথে রাখুন</li>
+                <li>প্রয়োজনীয় ওষুধপত্র নিন</li>
+                <li>ক্যামেরা ও পাওয়ার ব্যাংক নিতে ভুলবেন না</li>
+                <li>স্থানীয় গাইড ব্যবহার করুন</li>
+            </ul>
+        </div>
+
+        <div class="budget-section">
+            <h2>আনুমানিক খরচ (২ দিন ১ রাত)</h2>
+            <ul>
+                <li>ভ্রমণ খরচ: ২,০০০-৩,০০০ টাকা</li>
+                <li>হোটেল: ৩,০০০-১০,০০০ টাকা</li>
+                <li>খাবার: ১,০০০-২,০০০ টাকা</li>
+                <li>লোকাল ট্যুর: ১,০০০-২,০০০ টাকা</li>
+            </ul>
+        </div>
+
+        <div class="conclusion">
+            <p>
+                সেন্ট মার্টিন বাংলাদেশের অন্যতম জনপ্রিয় পর্যটন কেন্দ্র। প্রাকৃতিক সৌন্দর্য, নীল সাগর আর সবুজ নारিকেল বনের সমন্বয়ে এই দ্বীপ যেন স্বর্গের একটি টুকরো। সঠিক পরিকল্পনা করে গেলে এই ভ্রমণ হয়ে উঠবে অবিস্মরণীয়।
+            </p>
+        </div>
+
+        <div class="image-gallery">
+            <h3>ফটো গ্যালারি</h3>
+            <div class="gallery-grid">
+                <img src="images/saint-martin-1.jpg" alt="সূর্যাস্ত">
+                <img src="images/saint-martin-2.jpg" alt="বীচ">
+                <img src="images/saint-martin-3.jpg" alt="কোরাল">
+                <img src="images/saint-martin-4.jpg" alt="সী-ফুড">
+            </div>
+        </div>
+
+        <div class="post-tags">
+            <strong>ট্যাগ:</strong>
+            <a href="#">#সেন্টমার্টিন</a>
+            <a href="#">#ভ্রমণ</a>
+            <a href="#">#দ্বীপ</a>
+            <a href="#">#বাংলাদেশ_ভ্রমণ</a>
+            <a href="#">#পর্যটন</a>
+        </div>
+    </div>
+    
+    <div class="share-section">
+        <h4>শেয়ার করুন</h4>
+        <div class="social-buttons">
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+</article>
+
+<!-- JavaScript for Toggle -->
+<script>
+function showFullPost(postId) {
+    document.getElementById(postId).style.display = 'block';
+    window.scrollTo({
+        top: document.getElementById(postId).offsetTop,
+        behavior: 'smooth'
+    });
+}
+</script>
+
+
+                <!-- Latest News Section -->
+                <section class="latest-news">
+                    <h2 class="section-title">সর্বশেষ সংবাদ</h2>
+                    <div class="news-grid">
+                        <!-- News items will be here -->
+                        <div class="news-item">
+                            <div class="news-thumb">
+                                <img src="images/news1.jpg" alt="সংবাদ ছবি">
+                            </div>
+                            <div class="news-content">
+                                <span class="news-category">পর্যটন সংবাদ</span>
+                                <h3><a href="#">নতুন পর্যটন নীতিমালা ঘোষণা করল সরকার</a></h3>
+                                <p>পর্যটন খাতের উন্নয়নে নতুন নীতিমালা প্রণয়ন করেছে সরকার...</p>
+                                <div class="news-meta">
+                                    <span><i class="far fa-clock"></i> ২ ঘণ্টা আগে</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Sidebar Section -->
+                <aside class="sidebar">
+                    <!-- Search Widget -->
+                    <div class="widget search-widget">
+                        <form class="search-form">
+                            <input type="text" placeholder="অনুসন্ধান করুন...">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <!-- Popular Posts Widget -->
+                    <div class="widget popular-posts">
+                        <h3 class="widget-title">জনপ্রিয় পোস্ট</h3>
+                        <ul class="popular-posts-list">
+                            <li class="post-item">
+                                <div class="post-thumb">
+                                    <img src="images/popular1.jpg" alt="জনপ্রিয় পোস্ট">
+                                </div>
+                                <div class="post-info">
+                                    <h4><a href="#">কক্সবাজার ভ্রমণ গাইড ২০২৫</a></h4>
+                                    <span class="post-date"><i class="far fa-calendar-alt"></i> ১ জানুয়ারি ২০২৫</span>
+                                </div>
+                            </li>
+                            <li class="post-item">
+                                <div class="post-thumb">
+                                    <img src="images/popular2.jpg" alt="জনপ্রিয় পোস্ট">
+                                </div>
+                                <div class="post-info">
+                                    <h4><a href="#">সুন্দরবনে ভ্রমণের সেরা সময়</a></h4>
+                                    <span class="post-date"><i class="far fa-calendar-alt"></i> ২ জানুয়ারি ২০২৫</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="widget categories-widget">
+                        <h3 class="widget-title">ক্যাটাগরি</h3>
+                        <ul class="category-list">
+                            <li><a href="#">দেশে বেড়ানো <span>(45)</span></a></li>
+                            <li><a href="#">বিদেশে বেড়ানো <span>(32)</span></a></li>
+                            <li><a href="#">ট্রাভেল টিপস <span>(28)</span></a></li>
+                            <li><a href="#">হোটেল রিভিউ <span>(15)</span></a></li>
+                            <li><a href="#">ফটো গ্যালারি <span>(23)</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Subscribe Widget -->
+                    <div class="widget subscribe-widget">
+                        <h3 class="widget-title">নিউজলেটার</h3>
+                        <p>নতুন ভ্রমণ আপডেট পেতে সাবস্ক্রাইব করুন</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="আপনার ইমেইল">
+                            <button type="submit" class="btn">সাবস্ক্রাইব</button>
+                        </form>
+                    </div>
+
+                    <!-- Social Media Widget -->
+                    <div class="widget social-widget">
+                        <h3 class="widget-title">সোশ্যাল মিডিয়া</h3>
+                        <div class="social-links">
+                            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                            <a href="#" class="youtube"><i class="fab fa-youtube"></i> YouTube</a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                        </div>
+                    </div>
+
+                    <!-- Advertisement Widget -->
+                    <div class="widget ad-widget">
+                        <div class="ad-space">
+                            <img src="images/advertisement.jpg" alt="বিজ্ঞাপন">
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- About Us Section -->
+                    <div class="footer-widget about-widget">
+                        <h3 class="widget-title">আমাদের সম্পর্কে</h3>
+                        <div class="footer-logo">
+                            <img src="images/footer-logo.png" alt="পর্যটন বিচিত্রা">
+                        </div>
+                        <p>পর্যটন বিচিত্রা বাংলাদেশের অন্যতম জনপ্রিয় ভ্রমণ বিষয়ক ওয়েবসাইট। ২০১৫ সাল থেকে আমরা ভ্রমণ পিপাসুদের জন্য কাজ করে যাচ্ছি।</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://elearn.daffodilvarsity.edu.bd/my/"><i class="fas fa-globe"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-widget links-widget">
+                        <h3 class="widget-title">দ্রুত লিংক</h3>
+                        <ul class="quick-links">
+                            <li><a href="#">আমাদের সম্পর্কে</a></li>
+                            <li><a href="#">যোগাযোগ করুন</a></li>
+                            <li><a href="#">গোপনীয়তা নীতি</a></li>
+                            <li><a href="#">ব্যবহারের শর্তাবলী</a></li>
+                            <li><a href="#">বিজ্ঞাপন দিন</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Popular Categories -->
+                    <div class="footer-widget category-widget">
+                        <h3 class="widget-title">জনপ্রিয় বিভাগ</h3>
+                        <ul class="category-links">
+                            <li><a href="#">দেশে বেড়ানো</a></li>
+                            <li><a href="#">বিদেশে বেড়ানো</a></li>
+                            <li><a href="#">ভ্রমণ গাইড</a></li>
+                            <li><a href="#">হোটেল রিভিউ</a></li>
+                            <li><a href="#">ভিডিও গ্যালারি</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-widget contact-widget">
+                        <h3 class="widget-title">যোগাযোগ করুন</h3>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>১২৩/এ, গুলশান এভিনিউ, ঢাকা-১২১২</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>+8801356897741</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>info@parjatan.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; ২০২৫ পর্যটন বিচিত্রা - সর্বস্বত্ব সংরক্ষিত</p>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">গোপনীয়তা নীতি</a></li>
+                        <li><a href="#">ব্যবহারের শর্তাবলী</a></li>
+                        <li><a href="#">সাইটম্যাপ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>
